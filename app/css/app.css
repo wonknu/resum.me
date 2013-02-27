@@ -1,0 +1,108 @@
+/* app css stylesheet */
+body {
+	font: 11px 'Capriola', sans-serif;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+#me {
+	background: #FFFFFF;	
+}
+
+#experience {
+	background: #FAF1D5;
+}
+
+#education {
+	background: #DEC9AC;
+}
+
+#skills {
+	background: #CCA18B;
+}
+
+#interests {
+	background: #11282D;
+}
+
+#languages {
+	background: #A5C4BB;
+}
+
+#wheel {
+	height: 450px;
+	width: 450px;
+	position:fixed;
+	top: 100px;
+	right: -400px;
+	
+	-webkit-border-radius: 300px;
+	transition-property: right;
+	transition-duration: .3s;
+	transition-timinig-function: linear; 
+}
+
+#wheel:hover {
+	right: -240px;
+}
+
+
+#wheel .top{
+	background: transparent;
+	border: 52.5px solid #000;
+	height: 345px;
+	width: 345px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	opacity: .70;
+	z-index: 2;
+	
+	-webkit-border-radius: 300px;
+}
+
+#wheel .body{
+	background: transparent;
+	border: 60px solid #999;
+	height: 225px;
+	width: 225px;
+	position:absolute;
+	left: 52.5px;
+	top: 52.5px;
+	opacity: .70;
+	z-index: 2;
+	
+	-webkit-border-radius: 300px;
+}
+
+#wheel .bottom{
+	background: transparent;
+	border: 52.5px solid #000;
+	height: 120px;
+	width: 120px;
+	position:absolute;
+	left: 112.5px;
+	top: 112.5px;
+	opacity: .70;
+	z-index: 2;
+	
+	-webkit-border-radius: 300px;
+}
+
+#wheel nav {
+	position:relative; 
+	z-index: 3;
+}
+
+#wheel li {
+	list-style-type: none;
+}
+
+#wheel li a {
+	color:#FFFFFF;
+	text-transform:uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}

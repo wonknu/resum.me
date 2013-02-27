@@ -1,0 +1,32 @@
+<section id="me">
+	<h1>{{ resume.me.name }}</h1>
+	<h2>{{ resume.me.function }}</h2>
+	<p>{{ resume.me.description }}</p>
+</section>
+<section ng-show="resume.experiences" id="experience">
+	<h3>Experiences</h3>
+</section>
+<section ng-show="resume.education" id="education">
+	<h3>Education</h3>
+</section>
+<section ng-show="resume.skills" id="skills">
+	<h3>Skills</h3>
+</section>
+<section ng-show="resume.interests" id="interests">
+	<h3>Interests</h3>
+</section>
+
+<div id="wheel">
+	<nav>
+		<ul>
+			<li><a href="#me" ng-click="pickSkills($event)" class="lng">Me</a></li>		
+			<li><a href="#experience" ng-click="pickSkills($event)" class="exp">Experience</a></li>
+			<li><a href="#education" ng-click="pickSkills($event)" class="edu">Education</a></li>
+			<li><a href="#skills" ng-click="pickSkills($event)" class="skills">Skills</a></li>
+			<li><a href="#interests" ng-click="pickSkills($event)" class="hobby">Interests</a></li>
+		</ul>
+	</nav>
+	<div class="top"></div>
+	<div class="body"></div>
+	<div class="bottom"></div>
+</div>

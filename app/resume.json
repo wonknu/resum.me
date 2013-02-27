@@ -1,0 +1,57 @@
+{
+    "me": {
+        "name": "Julien Boulevart",
+        "function": "Front-End Developper",
+        "description": "Lorem ipsum bla bla bla bla"
+    },
+    "experiences": [
+        {
+            "begin": 2009,
+            "end": 2013,
+            "description": "Description od the job"
+        },
+        {
+            "begin": 2008,
+            "end": 2009,
+            "description": "Description of the job"
+        }
+    ],
+    "education": [
+        {
+            "begin": 2006,
+            "end": 2008,
+            "school": "Léonard de Vinci",
+            "degree": "BTS"
+        },
+        {
+            "begin": 2008,
+            "end": 2009,
+            "school": "Iut Montreuil",
+            "degree": "Licence Pro"
+        },
+        {
+            "begin": 2009,
+            "end": 2011,
+            "school": "IESA",
+            "degree": "Master 2"
+        }
+    ],
+    "skills": [
+        {
+            "html": 6,
+            "css": 6,
+            "jQuery": 4,
+            "magento": 2,
+            "phonegap": 1,
+            "wordpress": 1
+        }
+    ],
+    "interests": [
+        {
+            "music": 5,
+            "cinema": 4,
+            "photography": 3,
+            "tvshow": 3
+        }
+    ]
+}
